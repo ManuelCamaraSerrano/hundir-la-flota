@@ -144,6 +144,24 @@
 
 
 
+        public static function buscaJugadorNombre($nombre){
+
+            $j = null;
+
+            $resultado = self::$conexion->query("SELECT id, nombre FROM jugador WHERE nombre='$nombre'");
+
+            while ($registro = $resultado->fetch()) {
+
+                $j= new Jugador($registro["id"],$registro["nombre"]);
+
+            }
+            
+            return $j;
+
+        }
+
+
+
 
 
     }

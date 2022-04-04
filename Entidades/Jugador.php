@@ -51,4 +51,11 @@ class Jugador implements JsonSerializable{
     }
 
 
+    public function __toString(){
+
+        return "ID: ".$this->id." Nombre: ".$this->nombre;
+
+    }
+
+
 }
