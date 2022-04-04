@@ -1,0 +1,45 @@
+
+img{
+
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+
+}
+
+
+form{
+
+    padding: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    position: absolute;
+    z-index: 200;
+    top: 0;
+    margin-left: 39%;
+    margin-top: 20%;
+    opacity: 0.9;
+    
+}
+
+h1{
+
+    text-align: center;
+
+}
+
+
+
+p{
+    font-size: 14px;
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 46%;
+    z-index: 201;
+    color:darkred;
+    font-weight: bold;
+
+}
